@@ -26,3 +26,21 @@ var ligado = true
 var fechado = false
 
 let stringConstante = "Winterfell"
+
+// 3 Comando Basicos em Swift
+
+var poder = 9000
+
+if poder > 8000 {
+    print(" É mais de oito mil !!!")
+}else{
+    print("menor ou igual a 8000")
+}
+
+if ( poder == 9000) {
+    print("é nove mil")
+}
+// uso do laço de repetição no Swift 3
+for esfera in 1 ..< 7 {
+    print(esfera)
+}
