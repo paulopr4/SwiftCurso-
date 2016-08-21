@@ -118,6 +118,83 @@ let strLista = "ratos,golfinhos,humanos"
 var array = strLista.componentsSeparatedByString(",")
 print(array[1])
 
+// 5. Vetores e Matrizes
+
+// Criando um vetor de Strings
+var arrayDeStrings = ["Neo","Trinity","Morpheus"]
+
+//Explicitando o tipo do vetor
+var arrayDeInteiros : [Int] = [1,2,3,4,5]
+
+//Criando um vetor vazio
+var arrayDeDecimais : [Double] = []
+
+arrayDeStrings[1]
+
+//Tamanho do vetor
+arrayDeStrings.count
+
+//Adicionando elementos em um vetor
+arrayDeStrings.append("Agent Smith")
+arrayDeInteiros.append(10)
+
+//Modificando valores de elementos já existentes
+arrayDeStrings[0] = "Mr Anderson"
+arrayDeStrings
+
+//Removendo elementos pelo índice
+arrayDeInteiros.removeAtIndex(0)
+arrayDeInteiros
+
+
+// Laços em vetores
+/*
+for var i=0; i<arrayDeStrings.count; i++ {
+    var str = arrayDeStrings[i]
+    print(str)
+ 
+}
+*/
+for i in 0 ..< arrayDeStrings.count {
+    var str = arrayDeStrings[i]
+    print(str)
+}
+
+// What's the matrix?
+// Uma matrix nada mais é que um vetor de vetores
+var matrix = [[10,20], [20,40]]
+matrix.append([50,60])
+
+matrix[0] [0]
+matrix[0] [1]
+matrix[1] [0]
+matrix[1] [1]
+matrix[2] [0]
+matrix[2] [1]
+
+// Conceito de Optional
+
+var numero : Int?
+
+print(numero)
+
+numero = 2
+
+//unwrap seguro
+if let unwrappdInt = numero{
+    var soma1 = 1 + unwrappdInt
+}
+
+// forçar o unwrap
+
+var soma22 = 1 + numero!
+
+var unwrappeInt2 : Int!
+
+
+
+
+
 
 
 
