@@ -191,6 +191,17 @@ var soma22 = 1 + numero!
 
 var unwrappeInt2 : Int!
 
+//Clarating Optionais with Question Marks
+
+var z: Int?
+var string: String
+string = "123"
+z = Int(string)
+
+//https://classroom.udacity.com/courses/ud902/lessons/4648868941/concepts/46353623430923
+// parei 0:30
+
+
 
 
 
