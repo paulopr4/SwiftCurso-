@@ -258,7 +258,7 @@ imojis[1] = "👳🏼" // trocando elementos em uma Array
 
 imojis
 
-imojis[imojis.count - 1] = "😎" // Esta ´mais uma opçao para trocar um elemento no Array
+imojis[imojis.count - 1] = "😎" // Esta ´mais uma opçao para trocar um elemento no Array no caso o ultimo
 
 imojis
 
@@ -309,24 +309,42 @@ cozinha.last
 
 
 
-// 3 . Atualize o quarto elemento de sua Arrau com  uma nova String sem mudar o código de criação original da Array
+// 3 . Atualize o quarto elemento de sua Array com  uma nova String sem mudar o código de criação original da Array
+
+
+cozinha[4] = "Peneira"
+cozinha
+
 
 
 // 4 Remove o penúltimo elemento de sua Array
+
+ cozinha.removeAtIndex(3)
 
 
 
 //  5 Insira um novo elemnto no segundo index de sua Array
 
+cozinha.insert("Jarra", atIndex: 1)
+
+ // cozinha[cozinha.count - 1] = "Filtro"
+
+
+
 
 
 // 6 Utilize o método .contains para saber se sua array contém determinado elemento
 
+cozinha.contains("Jarra")
+cozinha.contains("Pastel")
 
 
 // 7 Utilize o método .indexof para saber qual o index de determinado elemento
 
+cozinha.indexOf("Colher")
 
+
+cozinha.count
 
 
 
