@@ -345,7 +345,7 @@ for numero in 1...5 {
 
 
 
-// Crie uma Array de cores e uma loop que imprima cada cor dentro daquela Array
+//  3 - Crie uma Array de cores e uma loop que imprima cada cor dentro daquela Array
 
 var colecaoDeCores  = ["verde, Amarelo, Azul, Vermelho"]
 
@@ -357,7 +357,7 @@ for cores in colecaoDeCores {
 }
 
 
-// Localizar numeros Pares e Impares dentro de uma Array
+// 4 -  Localizar numeros Pares e Impares dentro de uma Array
 // logica 
 // 1 Criar uma array com uma coleçao de numeros 
 
