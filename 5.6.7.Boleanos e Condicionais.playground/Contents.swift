@@ -243,6 +243,7 @@ if peso >= 40 && altura >= 100 {
 }else if peso >= 60 || altura >= 150 {
     
     print(" A criança tambem  pode ir no toboagua")
+    
 }else {
     
     print("A criança não poderá ir no toboágua")
@@ -329,6 +330,32 @@ for nome in array {
 
 
 // 7.4 Exercício Loops
+
+// 1 - Crie um loop que imprima no console 50 vezes a String "Programar é Demais !!!
+
+for  _ in 1...10 {
+    print("Programar é demais!")
+}
+
+// 2 Crie um loop que multiplique uma variável de tipo Int por ela mesma 5 vezes
+
+for numero in 1...5 {
+    print(" O valor retornardo após a multiplicação é de \(numero*numero)\n")
+}
+
+
+
+// Crie uma Array de cores e uma loop que imprima cada cor dentro daquela Array
+
+var colecaoDeCores  = ["verde, Amarelo, Azul, Vermelho"]
+
+for cores in colecaoDeCores {
+    
+    print("Estas são minhas cores favoritas \(colecaoDeCores)\n")
+    
+    
+}
+
 
 // Localizar numeros Pares e Impares dentro de uma Array
 // logica 
